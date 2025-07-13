@@ -1,50 +1,120 @@
-IBM Capstone Project: Data Analytics with Power BI
+# 📊 IBM Capstone Project: Data Analytics with Power BI
 
-📌 Project Overview
+This project is part of the **IBM Data Analytics Capstone**, where I analyzed **technology trends**, **future preferences**, and **demographic patterns** using a dataset of **18,821 global respondents**. While the original design was meant for **Google Looker Studio**, I rebuilt it using **Power BI** to gain deeper insights and build dynamic, visually rich dashboards.
 
-This project is part of the IBM Data Analytics Capstone, analyzing technology trends, future preferences, and demographics using a dataset of 18,821 respondents. The study focuses on programming languages, databases, cloud platforms, and web frameworks while also exploring age distribution, geographic representation, and educational backgrounds. The project was initially designed for Google Looker Studio, but I have conducted the analysis using Power BI for deeper insights and enhanced visualizations.
+---
 
-🔍 Key Insights
+## 🧠 Project Overview
 
-Programming Languages: JavaScript, Python, and SQL are the most used, while Go and Rust are gaining popularity.
+The project investigates how people interact with technologies like:
 
-Databases: PostgreSQL remains the top choice, with increasing interest in Supabase.
+- **Programming languages**
+- **Databases**
+- **Cloud platforms**
+- **Web frameworks**
 
-Cloud Platforms: AWS leads, while DigitalOcean and Hetzner are emerging.
+It also dives into:
 
-Web Frameworks: React and Node.js dominate, whereas jQuery is declining.
+- **Age distribution**
+- **Geographic representation**
+- **Educational backgrounds**
 
-Demographics: Most respondents are aged 25-34, with the highest participation from the U.S., Germany, and India.
+By analyzing these aspects, the project uncovers both current usage and future preferences in tech.
 
-Education: The majority hold Bachelor’s and Master’s degrees.
+---
 
-📊 Project Components
+## 📁 Files Included
 
-1. Power BI Dashboards
+| File Name                  | Description                                                  |
+|---------------------------|--------------------------------------------------------------|
+| `Dashboard 1.png`         | Static screenshot of **Current Technology Usage** dashboard  |
+| `Dashboard 2.png`         | Static screenshot of **Future Technology Trends** dashboard  |
+| `Dashboard 3.png`         | Static screenshot of **Demographics** dashboard              |
+| `Dashboard Record.gif`    | GIF demonstration showing live dashboard interactivity       |
+| `IBM CAPSTONE PROJECT.pptx`| Full presentation slides in PowerPoint format               |
+| `survey_data (DA).xlsx`   | The raw dataset used for all data cleaning and visualization |
+| `README.md`               | This project documentation (you’re reading it now!)          |
 
-Dashboard 1: Current Technology Usage
+---
 
-Dashboard 2: Future Technology Trends
+## 🖥️ Power BI Dashboard Preview
 
-Dashboard 3: Demographics
+### 📸 Dashboard Screenshots
 
-2. Data Processing & Cleaning
+**Dashboard 1 – Current Technology Usage**
+![Dashboard 1](Dashboard%201.png)
 
-Removed irrelevant columns.
+**Dashboard 2 – Future Technology Trends**
+![Dashboard 2](Dashboard%202.png)
 
-Split multi-value responses for accurate analysis.
+**Dashboard 3 – Demographics**
+![Dashboard 3](Dashboard%203.png)
 
-Eliminated 24 records with "Prefer not to say" age values.
+### 🎥 Dashboard Interactivity Preview (GIF)
+![Dashboard Recording](Dashboard%20Record.gif)
 
-📂 Project Files
+---
 
-Due to file size limitations, the Power BI presentation could not be uploaded to GitHub. Instead, all project files, including the dataset, Power BI report, and additional resources, have been uploaded to Google Drive.
+## 🔍 Key Insights
 
-📌 Google Drive Link: [https://www.coursera.org/learn/ibm-data-analyst-capstone-project]
+### 📌 Programming Languages
+- Most used: **JavaScript**, **Python**, **SQL**
+- Rising stars: **Go**, **Rust**
 
-📌 Coursera Project Link: [https://drive.google.com/drive/folders/1GcxPtNWSunJC8u1tWClEXn2rKew_m8Ce?usp=sharing]
+### 📌 Databases
+- Dominated by **PostgreSQL**
+- Growing interest in **Supabase**
 
-📩 Contact
+### 📌 Cloud Platforms
+- **AWS** leads by a large margin
+- **DigitalOcean** and **Hetzner** gaining ground
 
-For any questions regarding this project, feel free to reach out:
-📧 Email: avik305sarkhel@gmail.com
+### 📌 Web Frameworks
+- **React** and **Node.js** top the chart
+- **jQuery** sees a major decline
+
+### 📌 Demographics
+- Age group: Majority in **25–34**
+- Top countries: **USA**, **Germany**, **India**
+- Education: Most respondents hold **Bachelor’s** or **Master’s degrees**
+
+---
+
+## 🔧 Data Processing & Cleaning
+
+- Removed irrelevant and duplicate columns
+- Split multi-value responses for accurate filtering
+- Cleaned `Age` column by removing 24 "Prefer not to say" records
+- Standardized technology names for better grouping
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+- **Power BI** – Dashboard creation & storytelling
+- **Microsoft Excel** – Data formatting & cleanup
+- **Python (optional)** – Pre-cleaning (if required)
+- **Coursera** – IBM Capstone environment
+- **Slidesgo** – For the presentation template
+- **ChatGPT** – For code validation, logic guidance, and presentation flow
+
+---
+
+## 👨‍💻 Author
+
+**Avik Sarkhel**  
+🎓 MCA Student | Aspiring Data Analyst  
+📫 Email: [avik305sarkhel@gmail.com](mailto:avik305sarkhel@gmail.com)  
+🔗 LinkedIn: [Avik Sarkhel](https://www.linkedin.com/in/avik-sarkhel)
+
+---
+
+## 🚀 Explore the Project
+
+Feel free to explore this repo to:
+
+- Review dashboards and insights
+- Understand how different tech stacks are trending globally
+- Learn how to design clean, professional BI dashboards
+
+If you found this useful or interesting, don’t forget to ⭐ star this repo and connect on LinkedIn!
